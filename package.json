@@ -1,0 +1,16 @@
+{
+  "name": "cidr-typescript",
+  "version": "1.0.0",
+  "description": "A simple implementation of parsing IPv4 addresses",
+  "main": "index.js",
+  "author": "Cole Hansen <hansen.cole.e@gmail.com> \"http://colehansen.me\"",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -t \"ES5\" --lib \"ES2015\" --outDir $PWD src/index.ts",
+    "test": "node test/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "8.0.17",
+    "typescript": "2.4.2"
+  }
+}
